@@ -1,0 +1,16 @@
+# Ignora solo cose specifiche, non tutto!
+
+# Ambiente virtuale
+venv/
+
+# File temporanei / Python cache
+__pycache__/
+*.py[cod]
+
+# File di configurazione e ambienti
+.env
+*.log
+
+# Cartelle di IDE
+.vscode/
+.idea/
