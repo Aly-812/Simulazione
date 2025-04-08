@@ -39,6 +39,8 @@ git commit -m "messaggio"
 4) Manda branch su GitHub
 git push origin nome_branch
 
+-> a questo punto fari il merge da github è più sicuro
+
 5) Torna sul main e unisci modifiche
 git checkout main
 git pull origin main
