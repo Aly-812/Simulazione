@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "nome": "Prodotto A",
+      "prezzo": 25.99,
+      "attivo": true
+    },
+    {
+      "id": 2,
+      "nome": "Prodotto B",
+      "prezzo": 12.50,
+      "attivo": false
+    },
+    {
+      "id": 3,
+      "nome": "Servizio X",
+      "durata": "1 ora",
+      "attivo": true
+    },
+    {
+      "id": 4,
+      "nome": "Prodotto C",
+      "prezzo": 55.00,
+      "attivo": true,
+      "in_offerta": true
+    },
+    {
+      "id": 5,
+      "nome": "Servizio Y",
+      "durata": "30 minuti",
+      "attivo": false
+    },
+    {
+      "id": 6,
+      "nome": "Libro1",
+      "categoria": "Libro",
+      "titolo": "Guida Python",
+      "attivo": true
+    }
+  ]
