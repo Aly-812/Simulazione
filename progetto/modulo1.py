@@ -1,7 +1,7 @@
 def funzione_doppio(x):
     """Questa funzione restituisce il doppio del argomento passato alla funzione"""
     # TODO: Implementare la funzione per restituire il doppio di x
-    pass
+    return x*2
 
 def funzione_quadrato(y):
     """
@@ -9,7 +9,7 @@ def funzione_quadrato(y):
     Completa l'implementazione.
     """
     # TODO: Implementare la funzione per restituire il quadrato di y
-    pass
+    return y*y
 
 class ClasseParzialmenteImplementata:
     def __init__(self, nome):
