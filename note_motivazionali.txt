@@ -1,16 +1,37 @@
 
-Ambiente virtuale:
+1) Creare Ambiente virtuale:
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
+creare su vscode un file .gitignore con dentro il seguente testo:
+
+# Ambiente virtuale
+venv/
+
+# File Python compilati
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File di ambiente
+.env
+
+# Cartelle temporanee / IDE
+*.log
+.idea/
+.vscode/
+
+INSTALLARE PYTEST
+--> pip install pytest
 
 Git:
 1) crea e spostati su altro branch
 git checkout -b nome_branch
 
 2)Aggiungi file 
-git add .
+git add .  ** git commit -a  -> per fare add e commit insieme ma devi lasciare messaggio
 
 3) Fai commit
 git commit -m "messaggio"
