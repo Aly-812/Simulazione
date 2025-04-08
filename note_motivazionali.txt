@@ -50,5 +50,5 @@ git merge nome_branch
 git push origin main
 
 7) elimina branch secondario che non serve più
-  -git branch -d nome_branch -> in locale
-  - git push origin -- delete nome_branch -> su github
+  - git branch -d nome_branch -> in locale
+  - git push origin --delete aly_branch -> su github
