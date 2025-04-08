@@ -25,6 +25,7 @@ def processa_dati(dati:list) -> list:
     
     return lista_risultati
     
+# return [diz["id"] for diz in dati if diz.get("attivo") == True]
 
 if __name__ == "__main__":
     dizionario = leggi_da_file("dati/test.json")
