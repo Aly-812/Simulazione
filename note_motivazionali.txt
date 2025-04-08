@@ -1,0 +1,31 @@
+
+Ambiente virtuale:
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+
+Git:
+1) crea e spostati su altro branch
+git checkout -b nome_branch
+
+2)Aggiungi file 
+git add .
+
+3) Fai commit
+git commit -m "messaggio"
+
+4) Manda branch su GitHub
+git push origin nome_branch
+
+5) Torna sul main e unisci modifiche
+git checkout main
+git pull origin main
+git merge nome_branch
+
+6) manda modifiche aggiornate su main a GitHub
+git push origin main
+
+7) elimina branch secondario che non serve più
+  -git branch -d nome_branch -> in locale
+  - git push origin -- delete nome_branch -> su github
