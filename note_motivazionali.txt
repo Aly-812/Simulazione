@@ -4,7 +4,24 @@ python -m venv venv
 .\venv\Scripts\Activate.ps1
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
-creare su vscode un file .gitignore con dentro un *
+creare su vscode un file .gitignore con dentro il seguente testo:
+
+# Ambiente virtuale
+venv/
+
+# File Python compilati
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File di ambiente
+.env
+
+# Cartelle temporanee / IDE
+*.log
+.idea/
+.vscode/
 
 
 Git:
