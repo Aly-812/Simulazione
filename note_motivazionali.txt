@@ -39,6 +39,8 @@ git commit -m "messaggio"
 4) Manda branch su GitHub
 git push origin nome_branch
 
+-> a questo punto fari il merge da github è più sicuro
+
 5) Torna sul main e unisci modifiche
 git checkout main
 git pull origin main
@@ -48,5 +50,5 @@ git merge nome_branch
 git push origin main
 
 7) elimina branch secondario che non serve più
-  -git branch -d nome_branch -> in locale
-  - git push origin -- delete nome_branch -> su github
+  - git branch -d nome_branch -> in locale
+  - git push origin --delete aly_branch -> su github
